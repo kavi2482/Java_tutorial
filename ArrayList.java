@@ -11,6 +11,10 @@ public class Main {
             System.out.println(num);
             num.addAll(1,lst1);
             System.out.println(num);
+            Collections.sort(num);
+            System.out.println(num);
+            Collections.shuffle(num);
+            System.out.println(num);
             System.out.println(num.get(4));
             num.set(3,77);
             System.out.println(num);
@@ -24,6 +28,8 @@ public class Main {
             System.out.println(num);
             num.clear();
             System.out.println(num);
+            System.out.println(num.contains(99));
+            System.out.println(num.isEmpty());
 
 
         }
